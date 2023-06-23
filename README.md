@@ -15,7 +15,7 @@ Fully functional and Interactive website, **hosted via GitHub Pages**, describin
 
 ### Usage of the Website.
 
-Simply open the Index.html to start using the website locally. You can express positive reaction or approval of a certain image or paragraph by clicking the 'like' button. Usage also includes 'save text/image for later' buttons, which you can use to save the content to the Saved for Later page, for seperate viewing.
+You can express positive reaction or approval of a certain image or paragraph by clicking the 'like' button. Usage also includes 'save text/image for later' buttons, which you can use to save the content to the Saved for Later page, for seperate viewing.
 
 **1. Adding a image and text to Saved for Later & added a few likes.**
 
