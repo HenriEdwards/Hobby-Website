@@ -1,32 +1,26 @@
-# HyperionDev Capstone Project
-#### Hosted via GitHub pages
+# Hobby Website
 
-## Website Description
-Fully functional and Interactive website, **hosted via GitHub Pages**, describing a hobby of mine, where I discuss the benefits of Swimming, Dreams of the Olympics and some relevant Olympic Swmming information. Use case includes saving pictures and paragraphs to a saved for later page, for viewing at a later stage.
+Website dedicated to a hobby of mine. Developed using HTML, CSS & JavaScript.
 
-## Table of Contents
+## Features
 
-1. How to run the Website.
-2. Usage of the Website.
-3. Credits
+- Session storage for 'save for later' functionality.
+- `Like` button/counter enabled on content.
+- JavaScript further enables interactivity with content.
+- Responsive design.
 
-### How to run the Website.
+## Usage
 
-* Navigate to https://henriedwards.github.io/Capstone-Project/
+- Clone the repository.
+- Run locally with via `index.html`.
 
-### Usage of the Website.
+## Screenshots
 
-You can express positive reaction or approval of a certain image or paragraph by clicking the 'like' button. Usage also includes 'save text/image for later' buttons, which you can use to save the content to the Saved for Later page, for seperate viewing.
+![Screenshot 1](screenshots/sample-page.png)
+*Screenshot 1: Sample page*
 
-**1. Adding a image and text to Saved for Later & added a few likes.**
+![Screenshot 2](screenshots/added-content.png)
+*Screenshot 2: Add content to session storage*
 
-![Clicked a Save for later button](images/website-usage-1.png)
-
-**2. Showing the saved for later items.**
-
-![Showing Saved for later items](images/website-usage-2.png)
-
-### Credits.
-
-Olympic website for supplying information about recent Swimming Gold Medalists.
-https://olympics.com/en/
+![Screenshot 3](screenshots/session-storage.png)
+*Screenshot 3: View session storage*
