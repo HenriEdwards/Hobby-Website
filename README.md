@@ -20,11 +20,11 @@ You can express positive reaction or approval of a certain image or paragraph by
 
 **1. Adding a image and text to Saved for Later & added a few likes.**
 
-![Clicked a Save for later button](/images/website-usage-1.png)
+![Clicked a Save for later button](images/website-usage-1.png)
 
 **2. Showing the saved for later items.**
 
-![Showing Saved for later items](/images/website-usage-2.png)
+![Showing Saved for later items](images/website-usage-2.png)
 
 ### Credits.
 
