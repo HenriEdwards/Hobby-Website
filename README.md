@@ -28,5 +28,5 @@ Website dedicated to a hobby of mine. Developed using HTML, CSS & JavaScript.
 ![Screenshot 3](screenshots/add-session-item.png)
 *Screenshot 3: Adding a item to session storage*
 
-![Screenshot 3](screenshots/session-storage.png)
+![Screenshot 3](screenshots/session-storage-saved.png)
 *Screenshot 3: View session storage*
