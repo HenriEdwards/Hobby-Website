@@ -3,7 +3,7 @@
 Website dedicated to a hobby of mine. Developed using HTML, CSS & JavaScript.
 
 ## Live Link
-[Link](https://65cdf216fbdf02aef7583d37--voluble-piroshki-c475fd.netlify.app)
+[Link](https://65d1b84628293d285acb904f--voluble-piroshki-c475fd.netlify.app)
 
 ## Features
 
