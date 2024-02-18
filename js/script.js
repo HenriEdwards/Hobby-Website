@@ -102,7 +102,7 @@ $(document).ready(function() {
     $(this).animate({
       width: '+=10px',
       height: '+=10px'
-    }, 200).css('border', '2px solid black');
+    }, 200).css('border', '2px solid white');
   }, function() {
     $(this).animate({
       width: '-=10px',
@@ -116,5 +116,3 @@ $('.dropdown-menu a').click(function() {
   var selectedSport = $(this).text();
   alert('Your favorite Olympic sport is: ' + selectedSport);
 });
-
-

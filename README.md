@@ -19,11 +19,14 @@ Website dedicated to a hobby of mine. Developed using HTML, CSS & JavaScript.
 
 ## Screenshots
 
-![Screenshot 1](screenshots/sample-page.png)
-*Screenshot 1: Sample page*
+![Screenshot 1](screenshots/landing.png)
+*Screenshot 1: Landing page*
 
-![Screenshot 2](screenshots/added-content.png)
-*Screenshot 2: Add content to session storage*
+![Screenshot 2](screenshots/add-likes.png)
+*Screenshot 2: Added likes to content, saved in session storage*
+
+![Screenshot 3](screenshots/add-session-item.png)
+*Screenshot 3: Adding a item to session storage*
 
 ![Screenshot 3](screenshots/session-storage.png)
 *Screenshot 3: View session storage*
