@@ -2,7 +2,6 @@
 function saveFile(text, id) {
   sessionStorage.setItem(id, text);
   let count = Object.keys(sessionStorage).filter(key => !key.startsWith('comment-') && !key.startsWith('like')).length;
-  count -= 1;
   alert(`There are ${count} items in the session storage.`);
 }
 
@@ -10,7 +9,6 @@ function saveFile(text, id) {
 function saveImage(imgSrc, id) {
   sessionStorage.setItem(id, imgSrc);
   let count = Object.keys(sessionStorage).filter(key => !key.startsWith('comment-') && !key.startsWith('like')).length;
-  count -= 1;
   alert(`There are ${count} items in the session storage.`);
 }
 
