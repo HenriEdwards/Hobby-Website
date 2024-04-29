@@ -20,6 +20,22 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  min-height: 100px;
+  width: 250px;
+}
+
+.buttn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75px;
+}
+
 // background styles
 .bg-color {
     background-color: $standard-bg;
@@ -51,7 +67,6 @@ h5 {
   text-align: center;
 }
 
-// links
 a{
     color: white;
 }
@@ -64,33 +79,6 @@ a:hover{
   margin-top: 50px;
 }
 
-// small screens h1
-@media (max-width: 576px) {
-  h1 {
-    font-size: 3rem !important;
-  }
-}
-
-// mid screens h1
-@media (min-width: 576px) and (max-width: 992px) {
-  h1 {
-    font-size: 7rem !important;
-  }
-}
-
-// larger screens h1
-@media (min-width: 992px) {
-  h1 {
-    font-size: 10rem !important;
-  }
-}
-
-// footer smaller screens
-@media (max-width: 576px) {
-  .footer {
-    font-size: .80rem !important;
-  }
-}
 
 .primary-font{
   font-family: $h1-font-family;
@@ -146,14 +134,6 @@ a:hover{
   width: 500px;
 }
 
-
-@media (max-width: 576px) {
-
-  .form-control-learn {
-    width: 320px;
-  }
-}
-
 h2 {
   font-weight:  600;
   text-shadow: 2px 2px 4px #00000086
@@ -183,13 +163,6 @@ img {
   align-items: center;
 }
 
-@media (max-width: 576px) {
-
-  .contact-bottom {
-    padding-bottom: 25px;
-  }
-}
-
 .footer {
   letter-spacing: 0.5px;
 }
@@ -197,3 +170,39 @@ img {
 hr{
   background-color: white;
 }
+
+
+// Small Screens
+@media (max-width: 576px) {
+  .contact-bottom {
+    padding-bottom: 25px;
+  }
+
+  .form-control-learn {
+    width: 320px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .footer {
+    font-size: .80rem;
+  }
+
+}
+
+// mid screens h1
+@media (min-width: 576px) and (max-width: 992px) {
+  h1 {
+    font-size: 7rem;
+  }
+}
+
+// larger screens h1
+@media (min-width: 992px) {
+  h1 {
+    font-size: 10rem;
+  }
+}
+

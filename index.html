@@ -52,8 +52,10 @@
           <img src='images/swimming-2.jpg'
             id='i1' class='img-fluid m-3 h-100 w-100'
             style="max-width: 100%; max-height: 100%;">
-          <button class="btn bg-dark-2 text-white"
+          <div class="buttn">
+            <button class="btn bg-dark-2 text-white"
             onclick="saveImage(document.getElementById('i1').src, 'i1')">Save image for later</button>
+          </div>
         </div>
       </div>
       <!-- text right-->
@@ -68,30 +70,33 @@
             Additionally, swimming is a great way to relieve stress and promote relaxation,
             thanks to the buoyancy and fluidity of the water.
           </p>
-          <form>
+          <div class="buttons">
             <button class="btn bg-dark-2 text-white"
             type="button"
             onClick="increment(document.querySelector('#c1'))">
             Likes <span id="c1">0</span></button>
-          </form>
-          <button class = "btn bg-dark-2 text-white mt-3"
-          onclick="saveFile(document.getElementById('p1').textContent, 'p1')"
-          >Save text for later</button>
+
+            <button class = "btn bg-dark-2 text-white"
+            onclick="saveFile(document.getElementById('p1').textContent, 'p1')"
+            >Save text for later</button>
+
+          </div>
           <p class='m-3' id='p2'>Finally, swimming is a fun and social activity that can be enjoyed
             alone or with others, making it a great way to stay active and connected with
             friends and family. Whether you're an experienced swimmer or just starting out,
             swimming is a fantastic way to improve your health and well-being while enjoying
             the many benefits of being in the water.
           </p>
-          <form>
+          <div class="buttons">
             <button class="btn bg-dark-2 text-white"
             type="button"
             onClick="increment(document.querySelector('#c2'))"
             >Likes <span id="c2">0</span></button>
-          </form>
-          <button class = "btn bg-dark-2 text-white mt-3"
-          onclick="saveFile(document.getElementById('p2').textContent, 'p2')"
-          >Save text for later</button>
+
+            <button class = "btn bg-dark-2 text-white"
+            onclick="saveFile(document.getElementById('p2').textContent, 'p2')"
+            >Save text for later</button>
+          </div>
           <br>
         </div>
       </div>
@@ -105,10 +110,12 @@
         id='i2'
         class='img-fluid m-3 h-100 w-100'
         style="max-width: 100%; max-height: 100%;">
-        <button class="btn bg-dark-2 text-white"
-        onclick="saveImage(document.getElementById('i2').src, 'i2')">Save image for later</button>
+        <div class="buttn">
+          <button class="btn bg-dark-2 text-white"
+          onclick="saveImage(document.getElementById('i2').src, 'i2')">Save image for later</button>
         </div>
       </div>
+    </div>
       <!-- text right-->
       <div class='col-md-6 text-white align-items-center d-flex p-4'>
         <div class='d-flex flex-column align-items-center justify-content-center'>
@@ -122,30 +129,32 @@
             challenging, the satisfaction of achieving this goal and the memories that come
             with it would be immeasurable.
           </p>
-          <form>
+          <div class="buttons">
             <button class="btn bg-dark-2 text-white"
             type="button"
             onClick="increment(document.querySelector('#c3'))"
             >Likes <span id="c3">0</span></button>
-          </form>
-          <button class = "btn bg-dark-2 text-white mt-3"
-          onclick="saveFile(document.getElementById('p3').textContent, 'p3')"
-          >Save text for later</button>
+
+            <button class = "btn bg-dark-2 text-white"
+            onclick="saveFile(document.getElementById('p3').textContent, 'p3')"
+            >Save text for later</button>
+          </div>
           <p class='m-3' id="p4">Pursuing an Olympic dream requires not only physical
             training, but also mental strength, resilience, and an unwavering commitment to
             excellence. As a swimmer with this dream, I am willing to put in the hard work
             and dedication required to make it a reality.
           </p>
-          <!-- Save image for later -->
-          <form>
+          <!-- Save text for later -->
+          <div class="buttons">
             <button class="btn bg-dark-2 text-white"
             type="button"
             onClick="increment(document.querySelector('#c4'))"
             >Likes <span id="c4">0</span></button>
-          </form>
-          <button class = "btn bg-dark-2 text-white mt-3"
-          onclick="saveFile(document.getElementById('p4').textContent, 'p4')"
-          >Save text for later</button>
+
+            <button class = "btn bg-dark-2 text-white"
+            onclick="saveFile(document.getElementById('p4').textContent, 'p4')"
+            >Save text for later</button>
+          </div>
         </div>
       </div>
     </div>
@@ -304,12 +313,6 @@
       </tbody>
       </table>
     </div>
-    <div class="text-center">
-      <button class="btn bg-dark-2 text-white mt-4 mx-auto"
-      onclick="hideTable('table-men')">Hide men's table</button>
-      <button class="btn bg-dark-2 text-white mt-4 mx-auto"
-      onclick="showTable('table-men')">Show men's table</button>
-    </div>
 
     <br>
 
@@ -467,12 +470,6 @@
         </tr>
       </tbody>
       </table>
-    </div>
-    <div class="text-center">
-      <button class="btn bg-dark-2 text-white mt-4 mx-auto"
-      onclick="hideTable('table-women')">Hide women's table</button>
-      <button class="btn bg-dark-2 text-white mt-4 mx-auto"
-      onclick="showTable('table-women')">Show women's table</button>
     </div>
     <br>
     <!-- footer-->

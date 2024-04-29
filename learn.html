@@ -47,8 +47,10 @@
         id='i3'
         class='img-fluid m-3 h-100 w-100 img-animate'
         style="max-width: 100%; max-height: 100%;">
-        <button class="btn bg-dark-2 text-white"
-        onclick="saveImage(document.getElementById('i3').src, 'i3')">Save image for later</button>
+        <div class="buttn">
+          <button class="btn bg-dark-2 text-white"
+          onclick="saveImage(document.getElementById('i3').src, 'i3')">Save image for later</button>
+        </div>
       </div>
       </div>
       <!-- text right -->
@@ -67,13 +69,14 @@
             stroke, requiring a high level of strength and
             coordination, but it offers excellent cardiovascular and upper body workout benefits.
           </p>
-          <form>
+          <div class="buttons">
             <button class="btn bg-dark-2 text-white"
             type="button"
             onClick="increment(document.querySelector('#c5'))">Likes <span id="c5">0</span></button>
-          </form>
-          <button class = "btn bg-dark-2 text-white mt-3"
-          onclick="saveFile(document.getElementById('p5').textContent, 'p5')">Save text for later</button>
+
+            <button class = "btn bg-dark-2 text-white"
+            onclick="saveFile(document.getElementById('p5').textContent, 'p5')">Save text for later</button>
+          </div>
           <p class='m-3' id='p6'>
             If you're interested in learning more about different swimming styles, check out this
             <a href='https://en.wikipedia.org/wiki/Swimming_stroke'>guide to swimming styles</a>. This guide
@@ -81,13 +84,14 @@
              mistakes to avoid. Whether you're a beginner or an experienced swimmer, this guide can help
              you improve your swimming skills and maximize the benefits of your time in the water.
           </p>
-          <form>
+          <div class="buttons">
             <button class="btn bg-dark-2 text-white"
             type="button"
             onClick="increment(document.querySelector('#c6'))">Likes <span id="c6">0</span></button>
-          </form>
-          <button class = "btn bg-dark-2 text-white mt-3"
-          onclick="saveFile(document.getElementById('p6').textContent, 'p6')">Save text for later</button>
+
+            <button class = "btn bg-dark-2 text-white"
+            onclick="saveFile(document.getElementById('p6').textContent, 'p6')">Save text for later</button>
+          </div>
         </div>
       </div>
     </div>
@@ -99,8 +103,10 @@
         <img src='images/swimming-4.jpg'
         id='i4' class='img-fluid m-3 h-100 w-100'
         style="max-width: 100%; max-height: 100%;">
-        <button class="btn bg-dark-2 text-white"
-        onclick="saveImage(document.getElementById('i4').src, 'i4')">Save image for later</button>
+        <div class="buttn">
+          <button class="btn bg-dark-2 text-white"
+          onclick="saveImage(document.getElementById('i4').src, 'i4')">Save image for later</button>
+        </div>
       </div>
       </div>
       <!-- text right -->
@@ -115,13 +121,14 @@
             with different swimming styles can help you find the one that best suits your needs
             and preferences, and keep your workouts fresh and engaging.
           </p>
-          <form>
+          <div class="buttons">
             <button class="btn bg-dark-2 text-white"
             type="button"
             onClick="increment(document.querySelector('#c7'))">Likes <span id="c7">0</span></button>
-          </form>
-          <button class = "btn bg-dark-2 text-white mt-3"
-          onclick="saveFile(document.getElementById('p7').textContent, 'p7')">Save text for later</button>
+
+            <button class = "btn bg-dark-2 text-white"
+            onclick="saveFile(document.getElementById('p7').textContent, 'p7')">Save text for later</button>
+          </div>
           <p class='m-3' id='p8'>
             Swimming styles can also be combined to create a personalized swimming routine that
             targets specific muscle groups or fitness goals. For example, you can alternate between
@@ -130,21 +137,24 @@
             With so many options to choose from, swimming is a great form of exercise that can be
             customized to meet your individual needs and preferences.
           </p>
-          <form>
+          <div class="buttons">
             <button class="btn bg-dark-2 text-white"
             type="button"
             onClick="increment(document.querySelector('#c8'))">Likes <span id="c8">0</span></button>
-          </form>
-          <button class = "btn bg-dark-2 text-white mt-3"
-          onclick="saveFile(document.getElementById('p8').textContent, 'p8')">Save text for later</button>
+
+            <button class = "btn bg-dark-2 text-white"
+            onclick="saveFile(document.getElementById('p8').textContent, 'p8')">Save text for later</button>
+          </div>
         </div>
       </div>
     </div>
     <!-- dropdown - favourite sport -->
     <div class="dropdown d-flex justify-content-center">
-      <button class="btn dropdown-toggle bg-dark-2 text-white mt-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Choose your favorite Olympic sport
-      </button>
+      <div class="buttn">
+        <button class="btn dropdown-toggle bg-dark-2 text-white mt-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Choose your favorite Olympic sport
+        </button>
+      </div>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
         <a class="dropdown-item" href="#">Swimming</a>
         <a class="dropdown-item" href="#">Athletics</a>
@@ -175,7 +185,9 @@
           rows="3"
           placeholder="Enter your comment"></textarea>
         </div>
-        <button type="submit" class="btn bg-dark-2 text-white">Submit</button>
+        <div class='buttn'>
+          <button type="submit" class="btn bg-dark-2 text-white">Submit</button>
+        </div>
       </form>
       </div>
     </div>

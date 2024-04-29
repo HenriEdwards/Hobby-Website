@@ -1,14 +1,16 @@
 // function receives two parameters id and text content and saves to session storage
 function saveFile(text, id) {
   sessionStorage.setItem(id, text);
-  const count = Object.keys(sessionStorage).filter(key => !key.startsWith('comment-') && !key.startsWith('like')).length;
+  let count = Object.keys(sessionStorage).filter(key => !key.startsWith('comment-') && !key.startsWith('like')).length;
+  count -= 1;
   alert(`There are ${count} items in the session storage.`);
 }
 
 // function receives two parameters id and image source and saves to session storage
 function saveImage(imgSrc, id) {
   sessionStorage.setItem(id, imgSrc);
-  const count = Object.keys(sessionStorage).filter(key => !key.startsWith('comment-') && !key.startsWith('like')).length;
+  let count = Object.keys(sessionStorage).filter(key => !key.startsWith('comment-') && !key.startsWith('like')).length;
+  count -= 1;
   alert(`There are ${count} items in the session storage.`);
 }
 
@@ -84,16 +86,6 @@ if (commentsSection) {
     commentElement.innerHTML = "<h5>" + name + "</h5><p>" + comment + "</p><hr>";
     return commentElement;
   }
-}
-
-// function to onclick hide tables
-function hideTable(tableId) {
-  $("#" + tableId).hide();
-}
-
-// function to onclick show tables
-function showTable(tableId) {
-  $("#" + tableId).show();
 }
 
 // function to animate button on hover + chained effect, border increase
